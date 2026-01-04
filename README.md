@@ -49,7 +49,7 @@ Between December 13 and December 14, a phishing email containing a malicious lin
 
 ###  Suspicious Process Log 
 
-![malware log](Images\malwarelog.png "log of malware")
+![malware log](Images/malwarelog.png "log of malware")
 **Fig.1**
 
 ---
@@ -66,7 +66,7 @@ Between December 13 and December 14, a phishing email containing a malicious lin
 * The email contained a **malicious link** that directed the user to an **attacker-controlled Python web server** hosting the **malicious executable**, leading to the subsequent compromise.
 
 ### Suspicious Email
-![phishing email](Images\phisingemail.png "phishing email")  
+![phishing email](Images/phisingemail.png "phishing email")  
 **Fig. 2**
 
 ---
@@ -87,7 +87,7 @@ Between December 13 and December 14, a phishing email containing a malicious lin
 * The connection to a non-standard port commonly used for reverse shells indicates **successful command-and-control communication** with an external attacker system.
 
 ### Sysmon Event
-![sysmon event](Images\sysmonev.png "sysmon event")
+![sysmon event](Images/sysmonev.png "sysmon event")
 **Fig.3**
 
 ---
@@ -122,7 +122,7 @@ Firewall aliases were created to clearly identify and manage both the compromise
 Using aliases improves rule clarity, auditability, and aligns with enterprise firewall management best practices.
 
 ### Firewall Aliases
-![aliases](Images\aliases.png "pfSense aliases")
+![aliases](Images/aliases.png "pfSense aliases")
 **Fig.4**
 
 ---
@@ -145,7 +145,7 @@ These rules ensured the threat was contained while preserving forensic evidence 
 
 
 ### Firewall Rules
-![containment rules](Images\containmentrule.png "containment rules")
+![containment rules](Images/containmentrule.png "containment rules")
 **Fig.5**
 
 <br><br>
@@ -168,7 +168,7 @@ The malicious executable identified during analysis (Invoice.exe) was located in
 This step ensured the initial payload responsible for the reverse shell connection could no longer be executed.
 
 
-![CMD File deletion check](Images\filedeletion.png)
+![CMD File deletion check](Images/filedeletion.png)
 ---
 
 ### Persistence Verification
