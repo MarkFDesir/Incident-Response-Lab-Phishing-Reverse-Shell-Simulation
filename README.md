@@ -1,4 +1,4 @@
-# Incident-Response-Lab-Phishing-Reverse-Shell-Simulation
+# Incident Response Lab Phishing Reverse Shell Simulation
 
 ### Project Overview
 
